@@ -20,15 +20,8 @@ def speak(audio):
     engine.runAndWait()
 
 def wishMe():
-    hour = int(datetime.datetime.now().hour)
-    if hour>=0 and hour<12: 
-        speak(f"Good Morning Sir!My name is HAZEL ")
-
-    elif hour>=12 and hour<=18:
-        speak(f"Good Afternoon Sir!My name is HAZEL ")
-
-    else:
-        speak(f"Good Evening Sir!My name is HAZEL ")
+    speak("Hello! My name is hazel")
+    speak("Welcome to the luck game using ludo")
 
 
 def FiLayout(flag):
